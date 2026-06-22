@@ -87,10 +87,8 @@ Open your browser to **`http://localhost:5173`** to access the dashboard.
 | `GET` | `/api/urls/analytics/{shortKey}` | Returns detailed timeline, browser, OS, referrer, and region stats. |
 | `DELETE` | `/api/urls/{shortKey}` | Deletes a short URL mapping and its analytics history. |
 
----
 
-## 🔮 Custom Redirection Error Page
-If a user attempts to access an expired, invalid, or deleted link, the backend serves a custom glassmorphic HTML 404 page pointing them back to the active client dashboard.
+
 
 ---
 
